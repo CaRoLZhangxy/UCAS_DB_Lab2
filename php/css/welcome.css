@@ -1,0 +1,232 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("holo6.png");
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.hh{
+    font-size: 64px;
+}
+
+.pp {
+    font-size: 36px;
+    line-height: 100px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    margin: 20px 0 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: fixed;
+    z-index:999999;
+    border: 1px solid #e7e7e7;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #666;
+}
+
+
+li a:hover {
+    background-color: #c5e99b;
+}
+
+.active {
+    background-color: #8FBC94;
+}
+
+
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #8FBC94;
+    color: white;
+    font-weight:normal;
+}
+
+
+.boxa {
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+}
+
+.boxc {
+    text-align: center;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    height: 550px;
+}
+
+.boxd {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-left: 160px;
+    width: 39%;
+    height: 200px;
+}
+
+.boxe {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    position: relative;
+    overflow: hidden;
+    margin-right: 160px;
+    float: right;
+    width: 39%;
+    height: 200px;
+}
+
+.boxf {
+    text-align: center;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+}
+
+.boxg {
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    position: center;
+    overflow: hidden;
+    width: 80%;
+    height: 800px;
+}
+
+
+.ff form {
+    display: flex;
+    flex-direction: column;
+    padding:  0 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ff input {
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    outline: none;
+}
+
+
+.form-container form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding:  0 50px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-container input {
+    background: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 40%;
+    outline: none;
+}
+
+
+button {
+    display:block;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid #8FBC94;
+    background: #8FBC94;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(.95);
+}
+
+button:focus {
+    outline: none;
+}
+button:hover {background-color: #548687;}
+
+button.ghost {
+    background: transparent;
+    border-color: #fff;
+}
+
+.bb{
+    margin-top: 70px;
+}
