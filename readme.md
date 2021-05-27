@@ -18,13 +18,6 @@
 
 ## 创建数据库
 
-使用[77qiqi/ucas-dbms-hw-2020 (docker.com)](https://hub.docker.com/r/77qiqi/ucas-dbms-hw-2020)提供的docker，在镜像中安装`postgresql`并启动，执行以下命令：
-
-```shell
-$ sudo apt-get install postgresql
-$ sudo service postgresql start
-```
-
 执行psql进入数据库并创建一个名为lab2的数据库
 
 ```shell
